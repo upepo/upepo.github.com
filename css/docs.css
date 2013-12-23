@@ -1,0 +1,83 @@
+/* Add additional stylesheets below
+-------------------------------------------------- */
+
+/* Tweak navbar brand link to be super sleek
+-------------------------------------------------- */
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+body > .navbar {
+  font-size: 13px;
+}
+
+/* Change the docs' brand */
+body > .navbar .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #00CC55;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+body > .navbar .brand:hover {
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+}
+
+
+
+
+/* Responsive
+-------------------------------------------------- */
+
+
+/* Desktop
+------------------------- */
+@media (max-width: 980px) {
+
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 551px) and (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 550px) {
+  body {
+    padding-top: 0px;
+  }
+  /* Unfloat brand */
+  body > .navbar-fixed-top .brand {
+    float: left;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav.nav-list.affix {
+    position: static;
+    width: auto;
+    top: 0;
+  }
+ 
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+ 
+}
